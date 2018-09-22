@@ -1,0 +1,122 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Lord of the Rings - The Fellowship of the Ring Site</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+ 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville%7cLibre+Franklin" rel="stylesheet">
+  </head>
+  
+  <body>
+  	<!--start of backgroundImage div-->
+   	<div id="backgroundImage" data-interchange="[images/background.jpg, large]">	
+   	
+    <h1 class="hide">The Lord of the Rings - The Fellowship of the Ring Site</h1>
+    <header class="row"><!--header starts-->
+		<h2 class="hide">Main Header</h2>
+    	<div class="small-3 columns">
+       		<a href="index.html">
+        	<img src="images/logo.svg" alt="Lord of the Rings Logo" id="mainLogo">
+			</a>
+        </div>
+        
+        <div class="small-6 show-for-medium columns">
+        <h3>The Fellowship of the Rings</h3>
+        </div>
+        <div class="small-3 show-for-medium columns">
+       		<a href="#">
+        	<img class="socialIconsY" src="images/facebook_y.svg" alt="icon of Facebook">
+			</a>
+			<a href="#"><img class="socialIconsY" src="images/instagram_y.svg" alt="icon of Facebook"></a>
+       		<a href="#">
+        	<img class="socialIconsY" src="images/youtube_y.svg" alt="icon of Facebook">
+			</a>
+        </div>
+                 
+       <div class="small-3 small-offset-6 medium-12 medium-offset-0 columns">
+           
+            <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+            
+            <button class="menu-icon float-right" type="button" data-toggle="main-menu">
+            </button>
+            
+			</div>
+        </div>
+	 </header><!--header ends-->
+ 		
+  		<nav id="main-menu" class="row"><!--Main Navigation-->
+           	<h2 class="hide">Main Navigation</h2>
+            	<ul id="mainNav" class="small-12 small-centered columns">
+            	
+            		<li id="smallHome" class="medium-2 medium-offset-2 columns"><a  href="index.html"><img class="smallIcons" src="images/ring.svg" alt="icon of home" width="50">Home</a></li>
+                    <li id="smallMovie" class="medium-2 columns"><a href="#"><img class="smallIcons" src="images/movie.svg" alt="icon of movie info" width="50">Movie Info</a></li>
+                    <li id="smallGallery" class="medium-2 columns"><a href="gallery.html"><img class="smallIcons" src="images/gallery.svg" alt="icon of gallery" width="50">Gallery</a></li>
+                    <li id="smallJoin" class="medium-2 end columns"><a class="noMove" href="#"><img  class="smallIcons selected" src="images/join.svg" alt="icon of Join Us" width="50">Join Us</a></li>
+           		</ul>
+		</nav>
+		
+ 		<!--content Area-->
+  		<section class="row siteHeading">
+  			<div class="small-12 columns">
+			<h2>Join Us</h2>
+			</div>
+	 	 </section>
+	  	<div class="row">
+	  	<div id="registerBkgrd" class="medium-10 medium-centered columns">
+	  	<section class="row">
+			<h2 class="hide">Register Form</h2>
+			<div class="small-6 small-centered large-4 columns">
+				<h2 id="register">Register</h2>
+			</div>
+		</section>
+
+		<section class="row">
+				<div class="small-12 small-centered large-10 columns">
+					<form id="registerForm" action="contact.php" method="post" >
+						<h3>Username</h3>
+                	<label for="name"></label>
+                	<input type="text" required placeholder="Name" id="name"> 
+                    	<h3>Email</h3>
+                    <label for="email"></label>
+                    <input type="email" required placeholder="Email" id="email">
+                    	<h3>Password</h3>
+                    <label for="password"></label>
+                    <input type="password" placeholder="Password"  id="password">
+                    
+                    <input id="submit" type="submit" value="Creat Account" >
+                </form>
+				</div>
+	  	</section>
+	  	<img id="reigisterPen" class="bounce" data-interchange="[images/marker.svg, large]" alt="marker for large screen">
+			</div>
+		</div>
+		
+		
+<!--footer starts here-->
+	  	<footer class="row">
+			<h2 class="hide">Main Footer</h2>
+			<div class="small-9 large-4 small-centered columns">
+         		<a href="#">
+        	<img class="socialIconsB" src="images/facebook.svg" alt="icon of Facebook">
+			</a>
+			<a href="#"><img class="socialIconsB" src="images/instagram.svg" alt="icon of Facebook"></a>
+       		<a href="#">
+        	<img class="socialIconsB" src="images/youtube.svg" alt="icon of Facebook">
+			</a>
+				<p>Copyright © 2016 CELC London. 
+All rights reserved.</p>
+			</div>
+	 	 </footer>
+	 	 <!--footer ends here-->
+	  </div>
+	  <!--end of backgroundImage div-->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+     <script src="js/app.js"></script>
+    <script src="js/joinus.js"></script>
+  </body>
+</html>

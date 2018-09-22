@@ -1,0 +1,171 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Lord of the Rings - The Fellowship of the Ring Site</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+ 	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville%7cLibre+Franklin" rel="stylesheet">
+  </head>
+
+  <body>
+  	<!--start of backgroundImage div-->
+   	<div id="backgroundImage" data-interchange="[images/background.jpg, large]">
+
+    <h1 class="hide">The Lord of the Rings - The Fellowship of the Ring Site</h1>
+    <header class="row"><!--header starts-->
+		<h2 class="hide">Main Header</h2>
+    	<div class="small-3 columns">
+       		<a href="#">
+        	<img src="images/logo.svg" alt="Lord of the Rings Logo" id="mainLogo">
+			</a>
+        </div>
+
+        <div class="small-6 show-for-medium columns">
+        <h3>The Fellowship of the Rings</h3>
+        </div>
+        <div class="small-3 show-for-medium columns">
+       		<a href="#">
+        	<img class="socialIconsY" src="images/facebook_y.svg" alt="icon of Facebook">
+			</a>
+			<a href="#"><img class="socialIconsY" src="images/instagram_y.svg" alt="icon of Facebook"></a>
+       		<a href="#">
+        	<img class="socialIconsY" src="images/youtube_y.svg" alt="icon of Facebook">
+			</a>
+        </div>
+
+       <div class="small-3 small-offset-6 medium-12 medium-offset-0 columns">
+
+            <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="medium">
+
+            <button class="menu-icon float-right" type="button" data-toggle="main-menu">
+            </button>
+
+			</div>
+        </div>
+	 </header><!--header ends-->
+
+  		<nav id="main-menu" class="row"><!--Main Navigation-->
+           	<h2 class="hide">Main Navigation</h2>
+            	<ul id="mainNav" class="small-12 small-centered columns">
+
+            		<li id="smallHome" class="medium-2 medium-offset-2 columns"><a class="noMove" href="#"><img class="smallIcons selected" src="images/ring.svg" alt="icon of home" width="50">Home</a></li>
+                    <li id="smallMovie" class="medium-2 columns"><a href="movieInfo.html"><img class="smallIcons" src="images/movie.svg" alt="icon of movie info" width="50">Movie Info</a></li>
+                    <li id="smallGallery" class="medium-2 columns"><a href="gallery.html"><img class="smallIcons" src="images/gallery.svg" alt="icon of gallery" width="50">Gallery</a></li>
+                    <li id="smallJoin" class="medium-2 end columns"><a href="joinUs.html"><img  class="smallIcons" src="images/join.svg" alt="icon of Join Us" width="50">Join Us</a></li>
+           		</ul>
+		</nav>
+  		<!--content area-->
+   		<section id="mainPoster" class="row"><!--Poster of the Movie-->
+			<h2 class="hide">Main Poster</h2>
+  			<img data-interchange="[images/poster_small.jpg, small], [images/poster_medium.jpg, medium]
+			[images/poster_large.jpg, large]"  alt="Interchanging Posters"><noscript><img src="images/poster_large.jpg" alt="Main Poster of the Site"></noscript>
+		</section>
+
+	  	<section class="row small-collapse large-uncollapse whiteFrame">
+			<h2 class="hide">First Row of Main Content</h2>
+	  		<section class="small-12 large-6 columns">
+	  		<div id="movieDes" class="smallBoxes">
+				<h3>MOVIE<br>
+				 DESCRIPTION</h3>
+				<p>The Lord of the Rings: The Fellowship of the Ring is a 2001 epic high fantasy adventure film</p>
+				<div class="btnFrame" >
+				<a class="btn" href="movieInfo.html">More Details</a>
+				</div>
+				</div>
+			</section>
+			<div class="small-12 large-6 columns whiteFrame">
+        		<div id="smallTrailer">
+        		<h3>Teaser for Remastered Movie!</h3>
+        		<div id="videoPlayer">
+				<video id="myVideo" poster="images/teaser_poster.jpg">
+					<source src="video/teaser.mp4" type="video/mp4"/>
+					<source src="video/teaser.webm" type="video/webm"/>
+					<source src="video/teaser.ogv" type="video/ogg"/>
+					Video is not supported by your browser.
+					<!-- Firefogg - converter for all video formats -->
+				</video>
+				<div class="controls">
+					<div><img id="playVideo" class="videoIcons" src="images/play.svg" alt="play button"></div>
+					<div><img id="restartVideo" class="videoIcons" src="images/restart.svg" alt="restart button"></div>
+					<div><img id="volumeOn" class="videoIcons"  src="images/volumeon.svg" alt="volume button"></div>
+				<input id="vol-control" class="videoIcons" type="range" min="0" max="100" step="1">
+				</div>
+				</div>
+				</div>
+			</div>
+	  	</section>
+
+	  	<section class="row small-collapse large-uncollapse whiteFrame">
+			<h2 class="hide">Second Row of Main Content</h2>
+	  		<div class="small-12 large-6 columns">
+        		<div id="movieScene" class="smallBoxes">
+        		<img src="images/movie_scenes_small.jpg" alt="Movie Scenes Example Photo">
+				<h3>MOVIE<br>
+				 SCENES</h3>
+				<p>Let’s look at the scences from the movie and wait for our new re-release Video!</p>
+				<div class="btnFrame">
+				<a class="btn" href="gallery.html">More Photos</a>
+				</div>
+				</div>
+			</div>
+			<div class="small-12 large-6 columns whiteFrame">
+         		<div id="teaserDes" class="smallBoxes">
+				<h3>WATCH<br>
+				 FULL TRAILER</h3>
+				<p>Did you check out the teaser? Now enjoy the full trailer!</p>
+				<div class="btnFrame">
+				<a class="btn" href="gallery.html">Watch</a>
+				</div>
+				</div>
+			</div>
+	  	</section>
+
+	  	<section class="row small-collapse large-uncollapse whiteFrame">
+			<h2 class="hide">Third Row of Main Content</h2>
+	  		<div class="small-12 large-6 columns">
+         		<div id="joinUs" class="smallBoxes">
+					<h3>Interested?</h3>
+				<p>Join Us and Get More
+				Information of the Movie</p>
+				<div class="btnFrame">
+				<a class="btn" href="joinUs.html">JOIN US</a>
+				</div>
+				</div>
+			</div>
+			<div class="small-12 large-6 columns whiteFrame">
+         		<div id="gollum" class="smallBoxes">
+					<h3 class="hide">Gollum Sound</h3>
+					<a id="audioTag" class="small-12 large-offset-7 columns end wave btn"><img src="images/sound_wave.svg" alt="Sound Wave Image for Gollum Sound"><audio id="audio" src="includes/gollum_precious1.wav" ></audio>
+					Hear the Sound of Gollum</a>
+				</div>
+			</div>
+	  	</section>
+	  	<!--end of content area-->
+	  	<!--footer starts here-->
+	  	<footer class="row">
+			<h2 class="hide">Main Footer</h2>
+			<div class="small-9 large-4 small-centered columns">
+         		<a href="#">
+        	<img class="socialIconsB" src="images/facebook.svg" alt="icon of Facebook">
+			</a>
+			<a href="#"><img class="socialIconsB" src="images/instagram.svg" alt="icon of Facebook"></a>
+       		<a href="#">
+        	<img class="socialIconsB" src="images/youtube.svg" alt="icon of Facebook">
+			</a>
+				<p>Copyright © 2016 CELC London.
+All rights reserved.</p>
+			</div>
+	 	 </footer>
+	 	 <!--footer ends here-->
+	  </div>
+	  <!--end of backgroundImage div-->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
